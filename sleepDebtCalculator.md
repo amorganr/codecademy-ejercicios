@@ -9,7 +9,7 @@ The program will determine the actual and ideal hours of sleep for each night of
 Finally, it will calculate, in hours, how far you are from your weekly sleep goal.
 
 -------------------
-TASK 1 / 12
+TASK 1 | 12
 ------------------
 
 The first problem to solve is determining how many hours of sleep you got each night of the week.
@@ -19,7 +19,7 @@ You can create a function that returns any given night’s number of hours of re
 Create a function named getSleepHours with a single parameter named day.
 
 -------------------
-TASK 2
+TASK 2 | 12
 ------------------
 
 The function should accept a day as an argument and return the number of hours you slept that night.
@@ -29,7 +29,7 @@ For instance, if you got 8 hours of sleep on Monday night, calling getSleepHours
 Use an if/else or switch statement to implement this.
 
 -------------------
-TASK 3
+TASK 3  | 12
 ------------------
 
 Test the function by calling it multiple times and printing the results to the console.
@@ -37,7 +37,7 @@ Test the function by calling it multiple times and printing the results to the c
 You can remove the tests when you know your function works.
 
 -------------------
-TASK 4
+TASK 4 | 12
 ------------------
 
 Now that you’ve written a function to get the sleep hours for each night, we need to do three things:
@@ -49,13 +49,13 @@ Now that you’ve written a function to get the sleep hours for each night, we n
 To get the total sleep hours that you actually slept, create a new function named getActualSleepHours that takes no parameters.
 
 -------------------
-TASK 5
+TASK 5 | 12
 ------------------
 
 Inside the getActualSleepHours() function, call the getSleepHours() function for each day of the week. Add the results together and return the sum using an implicit return.
 
 -------------------
-TASK 6
+TASK 6 | 12
 ------------------
 
 To get the ideal sleep hours that you prefer, create a function named getIdealSleepHours with no parameters.
@@ -65,7 +65,7 @@ Inside the function, declare a variable named idealHours and set its value to yo
 You’ll want to multiply by 7 to get the total hours you prefer per week.
 
 -------------------
-TASK 7
+TASK 7 | 12
 ------------------
 
 Test your two new functions by calling them and printing the results to the console.
@@ -73,7 +73,7 @@ Test your two new functions by calling them and printing the results to the cons
 You can remove the tests when you know your functions works.
 
 -------------------
-TASK 8
+TASK 8 | 12
 ------------------
 
 Now that you can get the actual sleep hours and the ideal sleep hours, it’s time to calculate sleep debt.
@@ -85,7 +85,7 @@ Inside of its block, create a variable named actualSleepHours set equal to the g
 Then, create another variable named idealSleepHours, set equal to the getIdealSleepHours() function call.
 
  -------------------
-TASK 9
+TASK 9 | 12
 ------------------
 
 Now that you have actualSleepHours and idealSleepHours, you can write a few if/else statements to output the result to the console. The function should fulfill this logic:
@@ -97,19 +97,19 @@ Now that you have actualSleepHours and idealSleepHours, you can write a few if/e
 * If the actual sleep is less than the ideal sleep, log to the console that the user should get some rest.
 
 -------------------
-TASK 10
+TASK 10 | 12
 ------------------
 
 To make this calculator more helpful, add the hours the user is over or under their ideal sleep in each log statement in calculateSleepDebt().
 
 -------------------
-TASK 11
+TASK 11 | 12
 ------------------
 
 On the last line of the program, start the program by calling the calculateSleepDebt() function.
 
 -------------------
-TASK 12
+TASK 12 | 12
 ------------------
 
 For extra practice, try these:
